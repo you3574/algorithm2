@@ -27,8 +27,6 @@ public class BalancedStrings {
 				l = 0;
 			}
 		}
-
 		return result;
 	}
-
 }
