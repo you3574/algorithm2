@@ -13,11 +13,7 @@ public class DailyTemperatures {
 					break;
 				}
 			}
-			
-			
-			 
 			}
-		 
 		 
 		 return result;
 	        
