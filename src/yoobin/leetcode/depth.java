@@ -7,6 +7,7 @@ public class depth {
 	      TreeNode right;
 	      TreeNode(int x) { val = x; }
 	  }
+	  
 	 class Solution {
 	    public int maxDepth(TreeNode root) {
 	        if(root==null)
