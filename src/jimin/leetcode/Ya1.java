@@ -1,6 +1,6 @@
 package jimin.leetcode;
 import java.util.*;
-public class Yanolja1 {
+public class Ya1 {
 	public static int[] solution(int N) {
 		int array[]= new int[N];
 		if(N%2==0) { //Â¦¼ö
