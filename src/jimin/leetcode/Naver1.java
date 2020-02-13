@@ -7,7 +7,6 @@ public class Naver1 {
 	static int Solution(String[] A) {
 		HashMap<Character, Integer> map = new HashMap();
 		HashMap<Character, Integer> temp = new HashMap();
-		StringBuilder sb=new StringBuilder();
 		int count=0;
 		
 		
