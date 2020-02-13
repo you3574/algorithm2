@@ -36,8 +36,8 @@ public class number2 {
 				}
 			}
 
-			else if (sb.charAt(i) != sb.charAt(sb.length() - i - 1)) {
-				return no;
+			else if (sb.charAt(num2-1)=='?') {
+				sb.setCharAt(i, 'z');
 			}
 
 		}
@@ -58,7 +58,7 @@ public class number2 {
 		String s2="bab??a";
 		System.out.println(solution(s2));
 		
-		String s3="?a?";
+		String s3="??a??";
 		System.out.println(solution(s3));
 	}
 
