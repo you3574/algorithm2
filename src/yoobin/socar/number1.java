@@ -35,12 +35,9 @@ public class number1 {
 				if (tail == torsos.get(j).head) {
 					tail = torsos.get(j).tail;
 					torsos.get(i).tail = torsos.get(j).tail;
-					System.out.println(torsos.get(j).head);
-					System.out.println(torsos.get(j).tail);
 					torsos.remove(torsos.get(j));  
 					size--;
-					j = 0;
-
+			
 				}
 			}
 		}
@@ -62,8 +59,8 @@ public class number1 {
 
 		int[][] A = { { 1, 2 }, { 2, 3 }, { 3, 4 }, { 8, 7 }, { 7, 6 } };
 		int[][] B = { { 1, 2 }, { 4, 5 }, { 10, 9 }, { 3, 4 } };
-
-		int[] result = solution(A);
+		int[][] path3 = {{15, 16}, {13, 12}, {1, 2}, {9, 8}, {4, 5}, {10, 9}, {3, 4}, {7, 6}};
+		int[] result = solution(path3);
 		for (int v : result) {
 			System.out.print(v + " ");
 		}
